@@ -5,7 +5,7 @@ import 'home_page.dart';
 
 class MicroAppHomePageResolver implements MicroApp {
   @override
-  String get microAppName => 'micro_app_home';
+  String get microAppName => '/micro_app_home';
 
   @override
   Map<String, WidgetBuilderArgs> get routes {
