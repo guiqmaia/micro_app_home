@@ -13,7 +13,9 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: DefaultButton(
-          onPressed: () {},
+          onPressed: () {
+            navigatorKey.currentState?.pushNamed('/stocks');
+          },
           text: 'Go to products',
         ),
       ),
