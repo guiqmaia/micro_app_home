@@ -10,11 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  
+
   micro_core:
     git:
       url: https://github.com/guiqmaia/micro_core.git
-      ref: v1.0.1
+      ref: v1.0.2
+
 
 dev_dependencies:
   flutter_test:

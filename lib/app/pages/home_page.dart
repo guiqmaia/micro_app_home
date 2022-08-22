@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:micro_core/micro_core.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -7,9 +8,15 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(''),
+        title: const Text('Home Page'),
+        centerTitle: true,
       ),
-      body: Container(),
+      body: Center(
+        child: DefaultButton(
+          onPressed: () {},
+          text: 'Go to products',
+        ),
+      ),
     );
   }
 }
